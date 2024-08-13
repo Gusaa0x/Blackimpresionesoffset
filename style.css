@@ -352,8 +352,6 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
         height: 350px;
         width: 320px;
     }
-
-
     .imglogo__Inicio {
         width: 580px;
         height: 580px;
@@ -364,4 +362,26 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
     .cajaimg__Servicios {
         gap: 70px;
     }
+}
+
+@media (max-width: 400px) {
+    .a__nav {
+      font-size: .8rem;
+    }
+    .cajaNav {
+      gap: 20px;
+  }
+  input {
+    width: 300px;
+  }
+  textarea {
+    width: 300px;
+  }
+  #submit {
+    width: 300px;
+  }
+  .imglogo__Inicio {
+    width: 290px;
+    height: 290px;
+  }
 }
