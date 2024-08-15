@@ -409,3 +409,11 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
     font-size: 1rem;
   }
 }
+@media (max-width: 310px) {
+  .cajaContacto {
+    font-size: .8rem;
+  }
+  .a__nav {
+    font-size: .7rem;
+  }
+}
