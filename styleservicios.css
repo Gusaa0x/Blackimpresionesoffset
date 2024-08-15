@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagServicios {
+    width: 100%;
+    height: 1250px;
+    background-color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 85px;
+}
+
+nav {
+    background-color: rgb(221, 220, 220);
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
+    transition: .2s;
+    z-index: 1;
+}
+
+nav.sticky {
+    background-color: #000000;
+    transition: 2s;
+    z-index: 999;
+    height: 50px;
+    z-index: 1;
+}
+
+.header__Index {
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    margin: 0px;
+}
+
+.cajaNav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    gap: 40px;
+
+    font-size: 1.2rem;
+}
+
+.a__nav {
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    z-index: 999;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+}
+
+
+.caja_pagServicios {
+    width: 85%;
+    height: 250px;
+
+/*     background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.caja_pagServicios2 {
+    width: 85%;
+    height: 255px;
+
+/*     background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta__pagServicios {
+    display: flex;
+    margin: 25px;
+}
+.tarjeta__pagServicios2 {
+    display: flex;
+    margin: 25px;
+}
+.parrafo__pagServicios{
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-left: 40px;
+    color: #ffffff;
+}
+.img__pagServicios{
+    width: 180px;
+    height: 210px;
+}
+
+.espaciador__Pagservicios {
+    width: 40%;
+    height: 5px;
+    border-radius: 20%;
+    background-color: white;
+}
+
+/* ======================= MEDIA QUERIES =============================== */
+
+@media (max-width: 770px) {
+    .pagServicios {
+        height: 2000px;
+    }
+    /* .caja_pagServicios {
+        flex-direction: column;
+    } */
+    .caja_pagServicios {
+        height: 530px;
+        flex-direction: column;
+    }
+    
+}

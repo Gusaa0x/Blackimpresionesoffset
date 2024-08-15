@@ -151,7 +151,10 @@ nav.sticky {
     color: #ffffff;
 }
 
-
+.spantarjeta__Servicios {
+  font-size: 2rem;
+  color: #ffffff;
+}
 
 
 
@@ -165,6 +168,24 @@ nav.sticky {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.cajaContacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 150px;
+  /* background-color: olivedrab; */
+  font-size: 1.2rem;
+}
+.a__Cajacontacto {
+  color: black;
+}
+
+.fa-regular {
+  margin: 10px;
+}
+.fa-solid {
+  margin: 10px;
 }
 .spanContacto {
     font-size: 2rem;
