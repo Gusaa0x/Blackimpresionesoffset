@@ -405,4 +405,7 @@ input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
     width: 290px;
     height: 290px;
   }
+  .cajaContacto {
+    font-size: 1rem;
+  }
 }
